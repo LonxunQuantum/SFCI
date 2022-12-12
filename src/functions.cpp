@@ -303,7 +303,7 @@ void ReadElements(Hamiltonian& H, string temp)
     H.constant =0.0;
 
     for(int j = 0; j< 7; j++)
-	{
+    {
         int num_line;
         fscanf(fp,"%d",&num_line);
 
